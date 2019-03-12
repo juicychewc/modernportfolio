@@ -10,10 +10,10 @@ class NavLinks extends React.Component {
           <div className="nav-wrapper">
             <ul id="nav-mobile" className="right">
               <li>
-                <Link to="/">Portfolio</Link>
+                <Link to="/">About</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
                 <Link to="/contact">Contact</Link>

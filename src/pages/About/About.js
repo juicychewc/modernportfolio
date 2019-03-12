@@ -15,7 +15,7 @@ const About = () => (
             <Row>
               <div>
                 <img
-                  src=""
+                  src="./images/profile.jpg"
                   alt="Collin"
                   className="myImg"
                 />
@@ -30,7 +30,7 @@ const About = () => (
               gutterBottom
               className="flow-text line-height">
 
-              Biography goes here
+              Hello, My name is Collin Chew and I am a full stack developer. I received my education and training from UC Davis. I am currently residing in northern California but I love to travel.
 
             </Typography>
           </Row>
@@ -38,7 +38,11 @@ const About = () => (
       </Row>
       <Row>
         <Typography variant="h5" gutterBottom>
-          More info goes here
+
+        I am a very hands on and creative person. I enjoy working with computers almost as much as I like building them, including a few Intel and PC Magazine award winning designs. My passion for computers has eventually brought me to coding. I enjoy making new things. As an eagle scout, I learned the rewarding aspect to making something easier or better for someone that needs it. In a world where the future is dictated by technology and we claim there is an application for everything, I feel my ability to code will make a difference.
+
+        I am looking forward to what I can create or help others implement their great ideas. If you have a need for my skills or aspirations, feel free to contact me. I look forward to working with new people as well as learning new technologies.
+
         </Typography>
       </Row>
       <Row>
