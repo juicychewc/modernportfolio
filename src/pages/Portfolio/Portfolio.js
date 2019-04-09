@@ -1,4 +1,5 @@
 import React from "react";
+import data from "../../data/jsondata.json"
 import Nav from "../../components/Nav";
 import Card from "../../components/Card";
 import { Col, Row, Container } from "../../components/Grid";
@@ -8,9 +9,8 @@ import "./Portfolio.css";
 
 class Portfolio extends React.Component {
   state = {
-
+    data
   };
-
 
   render() {
     return (
@@ -30,16 +30,16 @@ class Portfolio extends React.Component {
           <Col size="lg-5 md-5 sm-12 marginBottom">
           <div>
           <Row>
-            {this.state.images.map(images => (
+            {this.state.data.map(data => (
               <Col size="lg-6 md-6 sm-12 marginBottom">
                 <Card
-                  id={images.id}
-                  name={images.name}
-                  image={images.image}
-                  description={images.description}
-                  githubURL={images.githubURL}
-                  deployedURL={images.deployedURL}
-                  alt={images.alt}
+                  id={data.id}
+                  name={data.name}
+                  image={data.image}
+                  description={data.description}
+                  githubURL={data.githubURL}
+                  deployedURL={data.deployedURL}
+                  alt={data.alt}
                 />
               </Col>
             ))}

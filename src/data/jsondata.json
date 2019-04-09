@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "MUSE",
+        "image": "./images/museimage.png",
+        "description": "A front end API based search engine.  This application gives users a browser based interface to access multiple API's relating to musicians and their history",
+        "techUsed": "HTML, CSS, Node JS",
+        "githubURL": "https://github.com/juicychewc/MUSE-Artist-Search",
+        "deployedURL": "https://juicychewc.github.io/MUSE-Artist-Search/",
+        "alt": "MUSE artist search"
+    },
+
+    {
+        "id": 2,
+        "name": "One Stop Code Shop",
+        "image": "./images/oscsimage.png",
+        "description": "A coding forum for coders by coders.  This is a full-stack MERN application giving users access to a consolidated coding search and the ability to use our forum to get help from other users in the community. Username: demo Password: demo",
+        "techUsed": "React JS, CSS, Node JS, Express",
+        "githubURL": "https://github.com/juicychewc/OneStopCodeShop2-ElectricBoogaloo",
+        "deployedURL": "https://onestopcodeshop.herokuapp.com/",
+        "alt": "One Stop Code Shop coding forum"
+    }
+]

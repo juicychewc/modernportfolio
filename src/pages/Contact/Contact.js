@@ -43,7 +43,7 @@ const Contact = () => (
           <Row>
             <i className="material-icons medium marRight">mail</i>
             <a href="mailto:collin.chew.7188@gmail.com" className="fontSize">
-              collin.chew.7188@gmail.com
+              Email
             </a>
           </Row>
         </Col>
